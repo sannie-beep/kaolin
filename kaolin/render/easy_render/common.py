@@ -16,7 +16,7 @@ import math
 import torch
 
 import kaolin as kal
-from kaolin.render.camera import Camera
+from threedgrut_playground.utils.distortion_camera import DistortionCamera as Camera
 from kaolin.render.lighting import SgLightingParameters, sg_direction_from_azimuth_elevation
 from kaolin.render.materials import PBRMaterial
 
